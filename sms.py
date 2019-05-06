@@ -1,10 +1,12 @@
 import urllib2
 import cookielib
 from getpass import getpass
-username = "8605248418"
-passwd = "anuja123"
+username = "phoneno"
+passwd = "password"
+#way2sms account
 message = "Image has been sent to your email"
-number = ["9404568768","8605248418","7385177401"]
+number = ["phone1","phone2","phone3"]
+#list of recipents
 message = "+".join(message.split(' '))
 url = 'http://site24.way2sms.com/Login1.action?'
 data = 'username='+username+'&password='+passwd+'&Submit=Sign+in'
