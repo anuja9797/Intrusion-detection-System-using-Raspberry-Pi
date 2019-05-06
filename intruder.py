@@ -17,10 +17,10 @@ from email.mime.multipart import MIMEMultipart
 import subprocess
 import sys
  
-gmail_user = "anuja4skype@gmail.com"
-gmail_pwd = "anuja4sy"
-FROM = 'anuja4skype@gmail.com'
-TO = ['anujanwatpade@gmail.com','leenawani@gmail.com'] #must be a list
+gmail_user = "dummymail@gmail.com"
+gmail_pwd = "password"  
+FROM = 'dummymail@gmail.com'
+TO = ['user1_mail@gmail.com','user2_mail@gmail.com'] #must be a list
 
  
 time.sleep(1)
